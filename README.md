@@ -43,8 +43,12 @@ Put enable off for unwanted tables.
 5.	Used Toggle Buttons to switch between visuals to change the comparing business matrix. Used Action icons to navigate through pages. 
 6.	Built many different filters and slicers to learn about any specific Market, Customer, Product, or any FY.
 7.	Incorporated Tooltip feature to compare between Gross Margin and Net Sales for any customer.
-8.	Finally added aesthetics to all the visuals and pages to make them visually appealing, uniform with respect to each other and easy to understand. 
+8.	Finally added aesthetics to all the visuals and pages to make them visually appealing, uniform with respect to each other and easy to understand.
+
+ 
 Dataset Details:
+
+
 GDB041 – 
 I.	fact_sales_monthly 
 Columns: date, division, product_code, category, product, market, platform, channel, customer_code, customer_name, sold_quantity
@@ -56,6 +60,8 @@ IV.	dim_product
 Columns: product_code, division, segment, category, product, variant
 V.	dim_market
 Columns: market, subzone, region
+
+
 GDB056 – 
 I.	freight_cost
 Columns: market, fiscal_year, freight_pct, other_cost_pct
@@ -67,6 +73,8 @@ IV.	pre_invoice_deduction
 Columns: customer_code, fiscal_year, pre_invoice_discount_pct
 V.	post_invoice_deduction
 Columns: customer_code, products_code, date, discount_pct, other_deduction_pct
+
+
 Excel Sheets –
 I.	Operational expenses
 Columns: market, fiscal_year, adpromotion_pct, other_operational_expense_pct 
@@ -74,5 +82,7 @@ II.	Targets
 Columns: market, month, ns_target, np_target, gm_target 
 III.	Market share
 Columns: subzone, category, fy_desc, total_market_sales_$, atliq_sales_$, dale_ sales_$, innovo_ sales_$, pacer_ sales_$, bp_ sales_$, other_ sales_$.
+
+
 
 Results: https://app.powerbi.com/view?r=eyJrIjoiMWM2ODM3ZmItOWY2MS00YzkyLTg4MDItMjQ3Y2M2ZDhiNTUxIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9
